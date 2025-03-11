@@ -5,7 +5,7 @@
 ---
 
 ## For API Documentation
-<a target="https://github.com/lucasvm1/Spring-Exercises/blob/main/05-Library-CRUD/API-DOCUMENTATION.md">API Documentation<a>
+[API Documentation](https://github.com/lucasvm1/Spring-Exercises/blob/main/05-Library-CRUD/API-DOCUMENTATION.md)
 
 ---
 
