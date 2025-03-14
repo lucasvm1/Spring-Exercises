@@ -15,7 +15,7 @@ public class PokemonService {
         this.webClient = webClient;
     }
 
-    public Mono<PokemonResponse> getPokemonInfo(String pokemonName){
+    public Mono<PokemonResponse> getPokemonInfo(int pokemonName){
         return webClient
                 .get()
                 .uri("/{pokemonName}", pokemonName)

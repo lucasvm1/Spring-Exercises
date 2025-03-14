@@ -23,7 +23,7 @@ public class PokemonController {
     }
 
     @GetMapping("/{pokemonName}")
-    public Mono<PokemonResponse> getPokemon(@PathVariable String pokemonName) {
+    public Mono<PokemonResponse> getPokemon(@PathVariable int pokemonName) {
 
         return pokemonService.getPokemonInfo(pokemonName);
 
